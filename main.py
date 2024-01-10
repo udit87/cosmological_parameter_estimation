@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import corner
 
 # Define file paths
-data_file_path = "C:/Users/uditt/Downloads/Pantheon+SH0ES.txt"
-cov_file_path = "C:/Users/uditt/Downloads/Pantheon+SH0ES_STAT+SYS.txt"
+data_file_path = "Pantheon+SH0ES.txt"
+cov_file_path = "Pantheon+SH0ES_STAT+SYS.txt"
 
 # Process data and covariance
 zcmb, zhel, mu, cov = process_data_and_covariance(data_file_path, cov_file_path)
